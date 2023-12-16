@@ -49,3 +49,7 @@ To run this application locally, follow these steps:
 - Launch the application.
 - Use the provided buttons to add, delete, update, and view student records.
 - Enter the necessary information in the text fields when adding or updating a student.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or would like to add new features, feel free to open an issue or create a pull request.
