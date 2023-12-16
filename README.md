@@ -22,7 +22,19 @@ To run this application locally, follow these steps:
 2. **Database Setup:**
 
     - Set up a MySQL database named `students`.
+    - Within this database, create a table named `students` to store student records.
+     <br><br>
+    ```sql
+    CREATE TABLE students (
+        Code INT AUTO_INCREMENT PRIMARY KEY,
+        Nom VARCHAR(255) NOT NULL,
+        Prenom VARCHAR(255) NOT NULL,
+        Filiere VARCHAR(255) NOT NULL
+    );
+    ```
     - Ensure your database connection details are correctly configured in the `StudentsDB.cs` file.
+        - Open the `StudentsDB.cs` file in your project.
+        - Ensure that the connection string in the `InitialiseDBConnection()` method matches your MySQL database configuration.
 
 3. **Open in IDE:**
 
